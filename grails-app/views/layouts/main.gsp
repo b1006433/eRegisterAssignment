@@ -18,11 +18,12 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
+</html>
+<!--		<div id="grailsLogo" role="banner"><a href="localhost:8080/eRegisterAssignment"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="eRegister"/></a></div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
+		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div> 
 		<g:javascript library="application"/>
 		<r:layoutResources />
 	</body>
-</html>
+
