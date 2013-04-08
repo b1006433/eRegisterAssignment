@@ -2,7 +2,7 @@ package uk.ac.shu.webarch.eregisterassignment
 
 class InstructorClasses {
 
-RegClass regclass
+RegClass instructorclass
 Instructor instructor
 
     static constraints = {

@@ -5,13 +5,16 @@ class Student {
  String StudentFirstName
  String StudentLastName
 
-Set classes
+  Set classes
+  Set enrollments
 
-static mappedBy = [classes: 'registerentry', 'enrollment']
+  static hasMany = [classes: Registerentry, enrollments: Enrollment]
+    
+  static mappedBy = [classes: 'registerentry', enrollments:'student']
 
-  static hasMany = [classes: Registerentry, Enrollment]
-    static constraints = {
+static constraints = {
     }
+
 }
 
 

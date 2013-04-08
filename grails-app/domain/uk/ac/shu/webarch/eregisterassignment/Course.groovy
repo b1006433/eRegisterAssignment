@@ -1,14 +1,15 @@
 package uk.ac.shu.webarch.eregisterassignment
 
 class Course {
-String CourseId
-String CourseName
+  String CourseId
+  String CourseName
 
-Set classes
+  Set classes
+  static hasMany = [classes: RegClass]
 
-static mappedBy = [classes: 'course']
+  static mappedBy = [classes: 'course']
 
-  static hasMany = [classes: CourseClasses, InstructorClasses, Enrollment, RegistrationSheet]
+ 
     static constraints = {
     }
 }

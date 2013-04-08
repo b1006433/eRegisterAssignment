@@ -5,8 +5,7 @@ String CourseClassId
 String CourseId
 String ClassId
 
-Course course
-RegClass regclass
+
 
     static constraints = {
     }

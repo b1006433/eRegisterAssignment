@@ -1,7 +1,7 @@
 package uk.ac.shu.webarch.eregisterassignment
 
 class Registerentry {
-RegistrationSheet registrationsheet
+Registrationsheet registrationsheet
 Student student
     static constraints = {
     }

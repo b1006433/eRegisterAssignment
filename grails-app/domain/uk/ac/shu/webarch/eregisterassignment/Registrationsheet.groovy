@@ -10,7 +10,7 @@ static mappedBy = [classes: 'registerentry']
 
   static hasMany = [classes: Registerentry]
 
-Class class
+
     static constraints = {
     }
 }
